@@ -1,0 +1,14 @@
+.newsletter-signup {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social-media { 
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
