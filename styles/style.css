@@ -1,3 +1,4 @@
+  
 .newsletter-signup {
 	display: flex;
 	justify-content: center;
@@ -11,4 +12,44 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
+  
+  
+  
+  
+  
+.courseSectionHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+}
+
+.courseContainer {
+  /* background-color: #fff; */
+  /* border-radius: 6px; */
+  box-shadow: 0 12px 32px 0 rgba(0,0,0,.2);
+  box-sizing: border-box;
+  color: #2d354c;
+  margin-bottom: 48px;
+  /* padding: 40px; */
+  text-align: center;
+  /* transition: box-shadow .3s ease-in-out; */
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.courseContainer img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.courseContainer img {
+  width: 100%;
+  z-index: -1;
 }
