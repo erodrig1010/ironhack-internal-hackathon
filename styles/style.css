@@ -1,3 +1,29 @@
+img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+.courseSection {
+  background-color: #1070B6;
+  color: #f7f7f7;
+}
+
+.courseSection button {
+  background-color: #f7f7f7;
+  color: #1070B6;
+}
+
 .courseSectionHeader {
   display: flex;
   justify-content: center;
@@ -12,9 +38,9 @@
 .courseContainer {
   /* background-color: #fff; */
   /* border-radius: 6px; */
-  box-shadow: 0 12px 32px 0 rgba(0,0,0,.2);
-  box-sizing: border-box;
-  color: #2d354c;
+  /* box-shadow: 0 12px 32px 0 rgba(0,0,0,.2);
+  box-sizing: border-box; */
+  /* color: #2d354c; */
   margin-bottom: 48px;
   /* padding: 40px; */
   text-align: center;
@@ -24,13 +50,162 @@
   margin-right: 20px;
 }
 
-.courseContainer img {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+
+.studentLife {
+  display: flex;
+  justify-content: center;
 }
 
-.courseContainer img {
-  width: 100%;
-  z-index: -1;
+
+
+/* Newsletter - Richard */
+
+.newsletter-signup {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+  align-items: center;
 }
+
+.social-media { 
+  display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.newsletter-signup button {
+  background-color: #1070B6;
+  color: #f7f7f7;
+}
+
+/* Basic Info - Randy */
+
+.container {
+  /* border-style: solid;
+  border-color: red;
+  border-radius: 2px;
+  width: 40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.box-one {
+  /* border-style: solid;
+  border-color: blue;
+  border-radius: 2px;
+  width: 25%;
+  height: 300px; */
+  /* align-content: center; */
+  /* align-self: flex-end; */
+  text-align: center;
+}
+
+.box-two {
+  /* border-style: solid;
+  border-color: green;
+  border-radius: 2px;
+  width: 25%;
+  height: 300px; */
+  text-align: center;
+}
+
+.box-three {
+  /* border-style: solid;
+  border-color: black;
+  border-radius: 2px;
+  width: 25%;
+  height: 300px; */
+  text-align: center;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+}
+
+.text {
+  width: 250px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.header-text {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: #1070B6;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+/* Header - Brian */
+
+
+.nav-bar{
+  /* background-image: url("./images/miami-4.jpg"); */
+  /* float: right; */
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+  
+  align-content: center;
+  background-image: url("../images/miami-4.jpg");
+  width: 100%;
+  /* background-color: #1070B6; */
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  padding-top: 20px;
+  height: 400px;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  }
+  .building-patio {
+    width: 500px;
+    height: 300px
+  }
+  .nav-links{
+    padding-left:100px;
+    font: white; 
+  }
+  
+  .links{
+    padding-left: 20px;
+    text-decoration: none;
+    color:white;
+  }
+  .logo{
+    width:70px;
+    height:70px;
+    /* padding-left: 50px; */
+    z-index: 1;
+  }
+  .header-container{
+    /* text-align: center; */
+    /* width: 300px; */
+    display: flex;
+    justify-content: center;
+  }
+  .header-container-two{
+    /* text-align: center; */
+    width: 450px;
+  }
+  .h1-text{
+    font-size:60px;
+    text-align:center;  
+  }
